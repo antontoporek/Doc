@@ -1,0 +1,4 @@
+---Run Minner--
+python3 -m neurons.miner --netuid NETUID --subtensor.network NETWORK --wallet.name NAME --wallet.hotkey HOTKEY --logging.debug --axon.port PORT --blacklist.force_validator_permit True
+-----
+
