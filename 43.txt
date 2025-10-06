@@ -1,3 +1,14 @@
+---- Register---
+Mainnet
+
+	btcli subnet register --wallet.name <your_wallet_name> --wallet.hotkey <your_hotkey_name> --netuid 43
+
+Testnet
+
+	btcli subnet register --wallet.name <your_wallet_name> --wallet.hotkey <your_hotkey_name> --netuid 65 --subtensor.network test
+
+
+
 ---Run Minner--
 python3 -m neurons.miner --netuid NETUID --subtensor.network NETWORK --wallet.name NAME --wallet.hotkey HOTKEY --logging.debug --axon.port PORT --blacklist.force_validator_permit True
 -----
